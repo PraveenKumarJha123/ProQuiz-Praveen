@@ -9,6 +9,7 @@
 	<version>0.0.1-SNAPSHOT</version>
 	<!--	<packaging>war</packaging>-->
 	<packaging>war</packaging>
+	<name>proquiz_praveen</name>
 
 	<parent>
 		<groupId>org.springframework.boot</groupId>
