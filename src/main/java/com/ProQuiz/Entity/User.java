@@ -19,6 +19,8 @@ public class User {
     private String otp;
     private String status;  // "INACTIVE" or "ACTIVE"
 
+    
+    //use lombok
     public Long getUserId() {
         return userId;
     }

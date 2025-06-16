@@ -14,3 +14,9 @@ public class ProQuizApplication  {
 		SpringApplication.run(ProQuizApplication.class, args);
 	}
 }
+
+//use lombok
+//implement swagger.
+// add some bg color
+//alignment issues
+//multiple login issues
