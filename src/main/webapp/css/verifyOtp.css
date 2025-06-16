@@ -1,0 +1,27 @@
+body {
+display : center;
+    font-family: Arial, sans-serif;
+    background-color: WhiteSmoke;
+
+}
+
+.container {
+   display : center;
+    width: 360px;
+    margin: 100px auto;
+    padding: 40px;
+    background-color: white;
+    border-radius: 10px;
+
+}
+h2 {
+    text-align: center;
+    color: Gray;
+    margin-bottom: 30px;
+}
+#log{
+width: 28%;
+ text-align: center;
+ color: white;
+background-color: green;
+}
