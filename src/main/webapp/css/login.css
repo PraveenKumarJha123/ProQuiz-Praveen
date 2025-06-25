@@ -1,7 +1,6 @@
 body {
-display : center;
-    font-family: Arial, sans-serif;
-    background-color: WhiteSmoke;
+
+    background-color: blanchedalmond;
 
 }
 
@@ -12,6 +11,7 @@ display : center;
     padding: 40px;
     background-color: white;
     border-radius: 10px;
+    text-align: center
 
 }
 
@@ -20,9 +20,13 @@ h2 {
     color: Gray;
     margin-bottom: 30px;
 }
+.loginForms{
+text-align: center
+}
 #log{
-width: 25%;
- text-align: center;
- color: white;
-background-color: green;
+  width: 67%;
+    text-align: center;
+    color: white;
+    background-color: green;
+    padding: 3%;
 }

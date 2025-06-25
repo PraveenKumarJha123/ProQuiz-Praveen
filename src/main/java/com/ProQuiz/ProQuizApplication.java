@@ -6,7 +6,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.web.servlet.support.SpringBootServletInitializer;
 
-//extends SpringBootServletInitializer
+
 @SpringBootApplication
 public class ProQuizApplication  {
 

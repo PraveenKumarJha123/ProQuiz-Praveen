@@ -9,10 +9,10 @@
 <body>
  <div class="container">
     <h2 style="color:green;">OTP sent to your email.</h2>
+  <c:if test="${not empty otpSend}">
+            <p style="color:yelow">${otpSend}</p>
+        </c:if>
 
-    <c:if test="${not empty error}">
-        <p style="color:red">${error}</p>
-    </c:if>
  <form action="/resendOtp" method="post" style="margin-top:15px;">
  <p> If not received click here to Resend </p>
         <input type="hidden" name="email" value="${email}">
@@ -25,6 +25,9 @@
         <input type="hidden" name="email" value="${email}"> <br>
         <input id="log" type="submit" value="submit">
     </form>
+   <c:if test="${not empty error}">
+        <p style="color:red">${error}</p>
+    </c:if>
 
 </div>
 

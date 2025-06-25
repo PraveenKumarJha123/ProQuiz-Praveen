@@ -1,7 +1,5 @@
 body {
-display : center;
-    font-family: Arial, sans-serif;
-    background-color: WhiteSmoke;
+    background-color: blanchedalmond;
 
 }
 
@@ -21,7 +19,8 @@ h2 {
 }
 #log{
 width: 28%;
- text-align: center;
  color: white;
 background-color: green;
+text-align: center;
+    height: 42px;
 }

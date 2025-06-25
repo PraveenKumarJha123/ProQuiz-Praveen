@@ -10,12 +10,15 @@
 <body>
     <div class="container">
         <h2>Quiz Manager</h2>
-        <form action="/verifyLogin" method="post">
+        <form   action="/verifyLogin" method="post" style="text-align:center;">
             <label>Username:</label>
             <input type="email" name="email" required><br> <br>
             <label>Password:</label>
-            <input type="password" name="password" required><br><br>
+             <input type="password" name="password" required><br><br>
             <input id="log" type="submit" value="Login">
+
+
+             <p><a href="/forgotPassword">Forgot Password?</a></p>
         </form>
         <c:if test="${not empty error}">
         <p style="color:red">${error}</p>
