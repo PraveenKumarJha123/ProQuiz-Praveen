@@ -14,7 +14,7 @@
         <label>Enter your registered Email:</label>
         <input type="email" name="email" required> <br><br>
           <c:if test="${not empty otpSend}">
-                            <p style="color:yellow">${otpSend}</p>
+                            <p style="color:green">${otpSend}</p>
                         </c:if>
                         <c:if test="${not empty error}">
                                 <p style="color:red">${error}</p>

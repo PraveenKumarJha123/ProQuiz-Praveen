@@ -1,0 +1,36 @@
+spring:
+  application:
+    name: ProQuiz
+
+  datasource:
+    url: jdbc:mysql://localhost:3306/quizapp
+    username: root
+    password: admin
+
+  jpa:
+    hibernate:
+      ddl-auto: create
+    show-sql: true
+
+  mail:
+    host: smtp.gmail.com
+    port: 587
+    username: praveenjhaazad143@gmail.com
+    password: bmtcaxdqeblnfotk
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable: true
+
+  mvc:
+    view:
+      prefix: /WEB-INF/views/
+      suffix: .jsp
+
+server:
+  port: 9090
+  error:
+    whitelabel:
+      enabled: false

@@ -10,7 +10,7 @@
  <div class="container">
     <h2 style="color:green;">OTP sent to your email.</h2>
   <c:if test="${not empty otpSend}">
-            <p style="color:yelow">${otpSend}</p>
+            <p style="color:green">${otpSend}</p>
         </c:if>
 
  <form action="/resendOtp" method="post" style="margin-top:15px;">

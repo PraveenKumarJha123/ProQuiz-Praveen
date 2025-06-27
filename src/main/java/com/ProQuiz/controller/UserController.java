@@ -51,9 +51,11 @@ public class UserController {
             User user = userService.findByEmail(email);
             user.setStatus("VERIFIED");
                  userService.updateUser(user);
+
             return "home";
         } else {
             model.addAttribute("email", email);
+
             model.addAttribute("error", "Invalid OTP. Please try again or click Resend.");
             return "verifyOtp";
         }
@@ -71,6 +73,7 @@ public class UserController {
 
         }
         model.addAttribute("email", email);
+        model.addAttribute("error","this new Otp will valid only within 2 min");
         return "verifyOtp";
     }
 
@@ -85,6 +88,7 @@ public class UserController {
         if (user != null) {
             otpService.sendOtp(email); // Generate and send OTP only once
             model.addAttribute("email", email);
+            model.addAttribute("otpSend","otp send your registered email , please check");
             return "forgotPassword";
         } else {
             model.addAttribute("error", "Email not found.");
@@ -107,7 +111,7 @@ public class UserController {
         } else {
             model.addAttribute("error", "Invalid OTP.");
             model.addAttribute("email", email);
-            return "resetPassword";
+            return "forgotPassword";
         }
     }
 }
