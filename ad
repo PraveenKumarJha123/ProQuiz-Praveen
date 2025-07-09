@@ -1,0 +1,60 @@
+[33mcommit 960c3091b49390778a97166aff666ab5a0f8e35f[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m)[m
+Author: user <praveenjhaazad143@gmail.com>
+Date:   Mon Jul 7 23:12:12 2025 +0530
+
+    Updata .yml file ddl-auto:update
+
+[33mcommit 8d1404936c29f79aff79ad59ae03feac3f07e3e1[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: user <praveenjhaazad143@gmail.com>
+Date:   Fri Jun 27 16:12:30 2025 +0530
+
+    changed application.yml , and also implement otp validation not more than 2min
+
+[33mcommit 32840730e8bb73e415a30c0be2695f8091f4b8cb[m
+Author: user <praveenjhaazad143@gmail.com>
+Date:   Wed Jun 25 16:21:55 2025 +0530
+
+    used lombok, some css and implement forgot password
+
+[33mcommit 5b3846204987842e0b82fd125a2b04048ff84f45[m
+Author: user <praveenjhaazad143@gmail.com>
+Date:   Wed Jun 25 16:17:02 2025 +0530
+
+    use lombok , forgot password and some adding css
+
+[33mcommit d1c0ab6acb320a351800c5389c8fb6a992828b5c[m
+Merge: 5daccde 4260f41
+Author: Uma Maheshwar Rao G <g.umamahesh2@gmail.com>
+Date:   Mon Jun 16 19:37:58 2025 +0530
+
+    Merge branch 'main' of https://github.com/PraveenKumarJha123/ProQuiz
+
+[33mcommit 5daccdeaf4959e9e8e0d60a4be7aca235b6e7db1[m
+Author: Uma Maheshwar Rao G <g.umamahesh2@gmail.com>
+Date:   Mon Jun 16 19:37:51 2025 +0530
+
+    added the review comments
+
+[33mcommit 4260f411f7d11c5d4bec764536be664d0152a97a[m
+Author: Golakaram Uma Maheshwar Rao <60653868+uma5999@users.noreply.github.com>
+Date:   Mon Jun 16 19:36:08 2025 +0530
+
+    Update README.md
+
+[33mcommit 59d8f68e858aba197f870d09ac8372597a3ab6d7[m
+Author: Golakaram Uma Maheshwar Rao <60653868+uma5999@users.noreply.github.com>
+Date:   Mon Jun 16 18:54:07 2025 +0530
+
+    Update pom.xml
+
+[33mcommit efa8d202e57d9396aacab4900c1f943d7e16453b[m
+Author: user <praveenjhaazad143@gmail.com>
+Date:   Mon Jun 16 11:03:12 2025 +0530
+
+    first commit
+
+[33mcommit d71fef423dfba6b8ddb0eac5e419c1088ceacdc1[m
+Author: PraveenKumarJha123 <99195632+PraveenKumarJha123@users.noreply.github.com>
+Date:   Mon Jun 16 11:13:30 2025 +0530
+
+    Initial commit

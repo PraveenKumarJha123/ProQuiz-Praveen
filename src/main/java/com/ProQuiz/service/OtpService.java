@@ -1,7 +1,8 @@
 package com.ProQuiz.service;
 
 import com.ProQuiz.Dao.UserRepository;
-import com.ProQuiz.Entity.User;
+
+import com.ProQuiz.Entity.Users;
 import org.springframework.beans.factory.annotation.Autowired;
 
 import org.springframework.mail.SimpleMailMessage;
@@ -20,10 +21,10 @@ public class OtpService {
     private UserRepository userRepository;
 
 public boolean verifyOtp(String email, String enteredOtp) {
-    Optional<User> userOpt = userRepository.findByEmailAndOtp(email, enteredOtp);
+    Optional<Users> userOpt = userRepository.findByEmailAndOtp(email, enteredOtp);
 
     if (userOpt.isPresent()) {
-        User user = userOpt.get();
+        Users user = userOpt.get();
 
         if (user.getOtpGeneratedTime() != null) {
             long diff = new Date().getTime() - user.getOtpGeneratedTime().getTime();
@@ -43,7 +44,7 @@ public boolean verifyOtp(String email, String enteredOtp) {
 
     // Generate or return existing OTP
 public String generateOtp(String email) {
-    User user = userRepository.findByEmail(email);
+    Users user = userRepository.findByEmail(email);
 
     // Check if OTP already exists and is not expired
     if (user.getOtp() != null && user.getOtpGeneratedTime() != null) {
